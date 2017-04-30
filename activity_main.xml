@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:background = "#fff"
+
+    tools:context="com.example.olanubija.businesscard.MainActivity"
+    android:weightSum="1">
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEVEN ROSES"
+        android:background = "#000"
+        android:textSize = "32sp"
+        android:fontFamily = "sans-serif-light"
+        android:gravity = "center"
+        android:textStyle = "bold"
+        android:paddingTop="5dp"
+        android:paddingLeft = "4dp"
+        android:paddingRight = "4dp"
+        android:textColor="#DED3F0"
+        />-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sevenroseslogo"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sevenrosesfont"
+        android:scaleType="fitXY" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sevenrosesjob"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize ="24sp"
+        android:fontFamily= "cursive"
+        android:gravity= "center"
+        android:text = "@string/about"
+        android:textColor = "#000"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom = "10dp"
+        android:layout_weight="0.31" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "0.5"
+        android:textColor = "#000"
+        android:fontFamily = "sans-serif-light"
+        android:textSize = "24sp"
+        android:text = "@string/name"
+        android:textStyle = "bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft = "10dp"
+        android:gravity = "center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor = "#000"
+        android:fontFamily = "sans-serif-light"
+        android:textSize = "22sp"
+        android:text = "@string/contact"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight = "10dp"
+        android:paddingStart = "20dp"
+        android:paddingLeft = "20dp"
+        android:paddingRight = "20dp"
+        android:gravity = "center"
+        />
+</LinearLayout>
